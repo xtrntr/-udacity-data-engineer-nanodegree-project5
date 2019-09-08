@@ -40,7 +40,7 @@ class StageToRedshiftOperator(BaseOperator):
         FROM '{}'
         ACCESS_KEY_ID '{}'
         SECRET_ACCESS_KEY '{}'
-        TRUNCATECOLUMNS BLANKSASNULL EMPTYASNULL
+        REGION 'us-west-2'
         {} 'auto'
         {}
         """
